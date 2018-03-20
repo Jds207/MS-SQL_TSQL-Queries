@@ -9,7 +9,6 @@ INSERT INTO #sp_who2 EXEC sp_who2
 SELECT      * 
 FROM        #sp_who2
 -- Add any filtering of the results here :
-WHERE       DBName = 'YOUR DB NAME HERE'
 
 -- Add any sorting of the results here :
 ORDER BY  LastBatch
